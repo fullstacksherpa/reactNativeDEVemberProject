@@ -59,6 +59,7 @@ export default function OnboardingScreen() {
         Gesture.Fling().direction(Directions.RIGHT).onEnd(onBack),
     );
     return (
+        
         <SafeAreaView style={styles.page}>
             <Stack.Screen options={{ headerShown: false }} />
             <StatusBar style="light" />
